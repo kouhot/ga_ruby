@@ -1,4 +1,6 @@
-# THe repo for google calendar with Ruby
+# repo for google calendar API  with Ruby
+
+## how
 
 1. Google Developer Console にアクセスして「プロジェクトを新規作成」
 2. 新規追加したプロジェクトでCalendarAPIをONにする
