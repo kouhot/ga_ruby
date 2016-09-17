@@ -40,7 +40,24 @@ event = {
   },
   'end' => {
     'date' => "#{end_date}",
-  }
+  },
+  "attendees": [
+    {
+      "email":"example@example.com",
+      "optional":true,
+      "responseStatus":"needsAction",
+      "comment":"任意参加者です。"
+    },
+    {
+      "email":"example@example.com",
+      "optional":true,
+      "responseStatus":"needsAction",
+      "comment":"任意参加者です"
+    }
+  ],
+  "summary":"title",
+  "location":"会議室",
+  "description":"新規案件打ち合わせ"
 }
 
 result = client.execute(:api_method => cal.events.insert,
